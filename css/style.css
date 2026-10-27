@@ -95,7 +95,7 @@ h2{font-size:clamp(28px,3.4vw,40px);line-height:1.3;color:var(--ink);margin:0 0 
 .tap-card span{color:var(--slate);font-size:15px}
 
 /* ---------- 사업분야 ---------- */
-.services{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
 .service{background:#fff;border:1px solid var(--line);border-radius:10px;padding:36px 32px;display:flex;flex-direction:column}
 .service .icon{width:52px;height:52px;color:var(--accent-dark);margin-bottom:24px}
 .service h3{font-size:22px;color:var(--ink);margin:0 0 4px}
@@ -150,7 +150,6 @@ h2{font-size:clamp(28px,3.4vw,40px);line-height:1.3;color:var(--ink);margin:0 0 
 @media (max-width:960px){
   .about-grid,.contact,.ceo{grid-template-columns:1fr;gap:40px}
   .hero-mark{display:none}
-  .services{grid-template-columns:1fr}
   .steps{grid-template-columns:1fr 1fr;row-gap:40px}
   .step::after{display:none}
 }
@@ -167,7 +166,7 @@ h2{font-size:clamp(28px,3.4vw,40px);line-height:1.3;color:var(--ink);margin:0 0 
   .nav ul a{display:block;padding:10px 0;font-size:17px}
   .brand img{height:38px}
   .hero .container{padding-top:80px;padding-bottom:88px}
-  .steps{grid-template-columns:1fr}
+  .steps,.services{grid-template-columns:1fr}
   .contact dl{grid-template-columns:72px 1fr}
   .contact-box{padding:28px}
 }
